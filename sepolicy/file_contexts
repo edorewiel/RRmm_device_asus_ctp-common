@@ -78,10 +78,6 @@
 # Houdini
 /system/lib/arm/cpuinfo                 u:object_r:cpuinfo_file:s0
 
-# NFC
-/dev/bcm2079x-i2c                       u:object_r:nfc_device:s0
-/data/nfc(/.*)?                         u:object_r:nfc_data_file:s0
-
 # radio
 /config/telephony(/.*)?                 u:object_r:radio_data_file:s0
 /dev/bus/usb/001/00[12]                 u:object_r:radio_device:s0
